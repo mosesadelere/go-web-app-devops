@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: mosesade/go-web-app
+        image: mosesade/go-web-app:latest
         ports:
         - containerPort: 8080
